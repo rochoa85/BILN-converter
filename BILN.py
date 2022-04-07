@@ -1,7 +1,7 @@
 """Script to manipulate BILN and convert to HELM (and viceversa)
 
 From publication: BILN – A Human-readable Line Notation for Complex Peptides
-Journal of Chemical Information and Modellin, 2022
+Journal of Chemical Information and Modelling, 2022
 """
 
 ########################################################################################
