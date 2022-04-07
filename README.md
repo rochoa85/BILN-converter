@@ -4,7 +4,7 @@ Script to manipulate BILN format and convert it to HELM (and viceversa)
 
 ## Basics
 
-The “Boehringer Ingelheim Line Notation” (BILN) is a human-readable line format that can describe even complex peptides containing multiple chemical modifications. Similar to HELM and other approaches, BILN connects the high-level line notation and the underlying atomic description with a monomer library. A monomer consists of atoms and bonds and can be defined by any chemical structure format (e.g. SMILES or an SD MolBlock). It has a unique identifier used in the BILN and one or several attachment points which define the possible connections to adjacent monomers. Becuase of that, we allow an easy interconversion between the formats depending of the user needs.
+The “Boehringer Ingelheim Line Notation” (BILN) is a human-readable line format that can describe even complex peptides containing multiple chemical modifications. Similar to HELM and other approaches, BILN connects the high-level line notation and the underlying atomic description with a monomer library. A monomer consists of atoms and bonds and can be defined by any chemical structure format (e.g. SMILES or an SD MolBlock). It has a unique identifier used in the BILN and one or several attachment points which define the possible connections to adjacent monomers. Because of that, we allow an easy interconversion between the formats depending on the user needs.
 
 In the following examples, we provide some basic command line codes to convert single or multiple sequences between the two formats. The files used are provided within the code
 
@@ -47,7 +47,7 @@ INFO:The helm molecule is: PEPTIDE1{[Ac]}|PEPTIDE2{A.K}|PEPTIDE3{[Me]}$PEPTIDE1,
 INFO:Successful completion
 ```
 
-The HELM notation can be obtained from the output or send to a file. Similarly, a HELM string can be used as input to generate the corresponding BILN format. However, if we have a list of HELM strings it is possible to provide a text file containing all the sequences to be converted (`list_helm.txt`):
+The HELM notation can be obtained from the output or sent to a file. Similarly, a HELM string can be used as input to generate the corresponding BILN format. However, if we have a list of HELM strings, it is possible to provide a text file containing all the sequences to be converted (`list_helm.txt`):
 
 ```
 PEPTIDE1{[Ac]}|PEPTIDE2{A.K}$PEPTIDE1,PEPTIDE2,1:R2-2:R3$$$V2.0
@@ -76,4 +76,4 @@ Abu(1,1)-Sar-NMeL-V-NMeL-A-DAla-NMeL-NMeL-NMeV-NMeThr4RBut2enyl(1,2)
 
 ## Support
 
-For more information about BILN please refer to the publication: 'BILN – A Human-readable Line Notation for Complex Peptides'.
+For more information about BILN please refer to the publication: 'BILN – A Human-readable Line Notation for Complex Peptides', JCIM, 2022.
