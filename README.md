@@ -53,8 +53,8 @@ The HELM notation can be obtained from the output or send to a file. Similarly, 
 PEPTIDE1{[Ac]}|PEPTIDE2{A.K}$PEPTIDE1,PEPTIDE2,1:R2-2:R3$$$V2.0
 PEPTIDE1{[Ac]}|PEPTIDE2{A.K}|PEPTIDE3{[Me]}$PEPTIDE1,PEPTIDE2,1:R2-2:R3|PEPTIDE2,PEPTIDE3,2:R2-1:R1$$$V2.0
 PEPTIDE1{D.T.H.F.P.I.C.I.F.C.C.G.C.C.H.R.S.K.C.G.M.C.C.K.T}$PEPTIDE1,PEPTIDE1,7:R3-23:R3|PEPTIDE1,PEPTIDE1,10:R3-13:R3|PEPTIDE1,PEPTIDE1,11:R3-19:R3|PEPTIDE1,PEPTIDE1,14:R3-22:R3$$$V2.0
-PEPTIDE1{F.V.N.Q.H.L.C.G.S.H.L.V.E.A.L.Y.L.V.C.G.E.R.G.F.F.Y.T.P.K.T}|PEPTIDE2{G.I.V.E.Q.C.C.T.S.I.C.S.L.Y.Q.L.E.N.Y.C.N}$PEPTIDE1,PEPTIDE2,7:R3-7:R3|PEPTIDE1,PEPTIDE2,19:R3-20:R3|PEPTIDE2,P
-EPTIDE2,6:R3-11:R3$$$V2.0
+PEPTIDE1{F.V.N.Q.H.L.C.G.S.H.L.V.E.A.L.Y.L.V.C.G.E.R.G.F.F.Y.T.P.K.T}|PEPTIDE2{G.I.V.E.Q.C.C.T.S.I.C.S.L.Y.Q.L.E.N.Y.C.N}$PEPTIDE1,PEPTIDE2,7:R3-7:R3|PEPTIDE1,PEPTIDE2,19:R3-20:R3|PEPTIDE2,
+PEPTIDE2,6:R3-11:R3$$$V2.0
 PEPTIDE1{H.[Aib].E.G.T.F.T.S.D.V.S.S.Y.L.E.G.Q.A.A.K.E.F.I.A.W.L.V.R.G.R.G}|PEPTIDE2{[C18DA].[gGlu].[OEG].[OEG]}$PEPTIDE1,PEPTIDE2,20:R3-4:R2$$$V2.0
 PEPTIDE1{[Abu].[Sar].[NMeL].V.[NMeL].A.[DAla].[NMeL].[NMeL].[NMeV].[NMeThr4RBut2enyl]}$PEPTIDE1,PEPTIDE1,1:R1-11:R2$$$V2.0
 ```
@@ -76,4 +76,4 @@ Abu(1,1)-Sar-NMeL-V-NMeL-A-DAla-NMeL-NMeL-NMeV-NMeThr4RBut2enyl(1,2)
 
 ## Support
 
-For more information about BILN please refer to the publication: 'XXX'. For any additional support please contact us at: XXX
+For more information about BILN please refer to the publication: 'BILN – A Human-readable Line Notation for Complex Peptides'.
