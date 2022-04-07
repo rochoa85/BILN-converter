@@ -1,16 +1,14 @@
 """Script to manipulate BILN and convert to HELM (and viceversa)
-Date: December 2021
 
 From publication: BILN – A Human-readable Line Notation for Complex Peptides
-Journal XXX
-Authors: XXX
+Journal of Chemical Information and Modellin, 2022
 """
 
 ########################################################################################
 # Authorship
 ########################################################################################
 
-__credits__ = ["XXX","XXX","XXX"]
+__credits__ = ["Thomas Fox", "Michael Bieler", "Peter Haebel", "Rodrigo Ochoa", "Stefan Peters", "Alexander Weber"]
 __license__ = "MIT"
 __version__ = "1.0"
 
