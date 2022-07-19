@@ -38,14 +38,14 @@ class BILN:
 
         self.polymerinfo = {"chains": [], "bonds": []}
 
-        if biln is not None:
+        if biln is not None and helm is not None:
+            logger and logger.error("Either biln or helm or none are allowed as input. Exit the script")
+            exit(1)
+        elif biln is not None:
             self.evalBILN(biln=biln)
         elif helm is not None:
             self.evalHELM(helm=helm)
-        elif biln is not None and helm is not None:
-            logger and logger.error("Either biln or helm or none are allowed as input. Exit the script")
-            exit(1)
-
+        
     ############################################################
     @staticmethod
     def __removeBrackets(sequence):
